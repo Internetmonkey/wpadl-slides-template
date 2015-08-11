@@ -12,6 +12,9 @@ span.highlight {
   font-size: 1.3em;
   text-decoration: underline; }
 
+.box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -237,10 +240,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #464646;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  margin: 15px 0px; }
 
 .reveal a img {
   -webkit-transition: all 0.15s linear;
@@ -296,3 +296,24 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #F0503A; }
+
+.reveal .wp h1, .reveal .wp h2, .reveal .wp h3, .reveal .wp h4, .reveal .wp h5, .reveal .wp h6, .reveal .wp .h1, .reveal .wp .h2, .reveal .wp .h3, .reveal .wp .h4, .reveal .wp .h5, .reveal .wp .h6 {
+  margin: 0 0 20px 0;
+  color: #21759b;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+.reveal .wp a {
+  color: #d54e21; }
+.reveal .wp a:hover {
+  color: #7d2e13; }
+.reveal .wp h1, .reveal .wp .h1 {
+  color: #464646; }
+
+section img.plain {
+  border: none;
+  box-shadow: none; }

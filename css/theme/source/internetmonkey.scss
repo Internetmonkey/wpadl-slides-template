@@ -56,6 +56,47 @@ span.highlight {
 	text-decoration: underline;
 }
 
+.box-shadow {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+.reveal .wp { 
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+
+	margin: $headingMargin;
+	color: $wp-blue;
+
+	font-family: $headingFont;
+	font-weight: $headingFontWeight;
+	line-height: $headingLineHeight;
+	letter-spacing: $headingLetterSpacing;
+
+	text-transform: $headingTextTransform;
+	text-shadow: $headingTextShadow;
+
+	word-wrap: break-word;
+	}
+
+	a {
+		color: $wp-orange;
+	}
+
+	a:hover {
+		color: darken($wp-orange, 20% );
+	}
+
+	h1, .h1 {
+		color: $wp-grey;
+	}
+}
+
+section img.plain {
+	border: none;
+	box-shadow: none;
+}
